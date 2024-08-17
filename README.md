@@ -1,4 +1,6 @@
 # Coffee Shop
 
 # Screenshots
-![coffee-shop-1](https://github.com/user-attachments/assets/abf7466a-3098-4b45-92a7-5fb35350d3c9)
+
+![coffee-shop](https://github.com/user-attachments/assets/828c8137-5860-45cf-8e46-386bea3d3a34)
+

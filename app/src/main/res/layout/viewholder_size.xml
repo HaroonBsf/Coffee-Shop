@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sizeLayout"
+    android:layout_width="85dp"
+    android:layout_height="85dp"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="4dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/size_bg"
+        android:padding="8dp"
+        android:src="@drawable/coffee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

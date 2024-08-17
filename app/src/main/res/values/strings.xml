@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="search_anything">Search anything...</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="get_started">Get Started</string>
+    <string name="find_the_best_coffee_nfor_you">Find the best coffee\nfor you</string>
+    <string name="started">Started</string>
+    <string name="grab_your_first_coffee_in_this_morning">Grab your first coffee in this morning</string>
+    <string name="popular">Popular</string>
+    <string name="see_all">See all</string>
+    <string name="available_offers">Available offers</string>
+    <string name="cart">Cart</string>
+</resources>

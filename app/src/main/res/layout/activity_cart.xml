@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_gradient"
+    android:fillViewport="true"
+    tools:context=".activity.CartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/back2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Cart"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCartView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/white_bg"
+            android:elevation="3dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etCoupen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textSize="14sp"
+                android:inputType="text"
+                android:textColorHint="#8A7272"
+                android:hint="Enter Your Copoun"
+                android:paddingStart="8dp"
+                android:background="#00ffffff"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/applyBtn"
+                style="@android:style/Widget.Button"
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="4dp"
+                android:textSize="16sp"
+                android:background="@drawable/orange_bg"
+                android:text="Apply"
+                />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/subTotalTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtotal"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subTotalPriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$-"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Delivery"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subTotalTxt" />
+
+            <TextView
+                android:id="@+id/deliveryPriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$-"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/delivery" />
+
+            <TextView
+                android:id="@+id/totalTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Total Tax"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/delivery" />
+
+            <TextView
+                android:id="@+id/totalTaxPriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$-"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/totalTax" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/totalTax" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Total"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <TextView
+                android:id="@+id/totalPriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$-"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/total" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/proceedCheckoutBtn"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginEnd="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/orange_bg"
+            android:text="Proceed to Checkout"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

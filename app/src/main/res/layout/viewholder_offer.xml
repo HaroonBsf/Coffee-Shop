@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="215dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    android:elevation="3dp"
+    android:background="@drawable/white_bg"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageview"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceTxt"
+        android:text="$-"
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

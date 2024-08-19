@@ -1,5 +1,4 @@
 # Coffee Shop
 
 # Screenshots
-
-![coffee-shop](https://github.com/user-attachments/assets/a7f961fd-86d7-40f4-9e5c-5bd497165568)
+![Remove background project](https://github.com/user-attachments/assets/d5220b90-61a1-4c5c-a0f2-54f019b468da)

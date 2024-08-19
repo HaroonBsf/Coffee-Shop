@@ -2,10 +2,9 @@
 
 # Screenshot
 
-<div> <img src="https://github.com/user-attachments/assets/e5d7fd71-ed5c-4d20-a07f-a97aef6de07b" width="170" alt="Coffee Shop Image" style="float: left">
-  <img src="https://github.com/user-attachments/assets/7a566ee2-9482-4fd0-8064-1ead9959f04a" width="170" alt="Coffee Shop Image" style="float: right">
-</div>
-
-<div> <img src="https://github.com/user-attachments/assets/f720b997-11cf-426b-bea7-d4c726d55088" width="173" alt="Coffee Shop Image" style="float: left">
-  <img src="https://github.com/user-attachments/assets/47189b10-283e-4eba-9405-cd101dbcfc95" width="170" alt="Coffee Shop Image" style="float: right">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/904d77b1-78f1-41b5-ab43-f6c1e6934bd8" width="200" alt="Coffee Shop Image">
+  <img src="https://github.com/user-attachments/assets/7dd2f990-ee7f-4f17-a626-b9ef1cf19a52" width="200" alt="Coffee Shop Image">
+  <img src="https://github.com/user-attachments/assets/7595290a-7b03-4962-9291-9c10039a0f92" width="200" alt="Coffee Shop Image">
+  <img src="https://github.com/user-attachments/assets/7ade6963-ef29-434e-b9ed-559ffaf7b376" width="200" alt="Coffee Shop Image">
 </div>

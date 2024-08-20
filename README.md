@@ -5,6 +5,20 @@ A Coffee Shop app built with Kotlin, with some Java, and Firebase, focused on UI
 ## Note
 This repository is currently under development, with ongoing plans to add more backend features and enhancements.
 
+## Features
+
+ * **Premium UI:** Visually appealing, user-friendly, and attractively designed interface for an enhanced user experience.
+ * **Popular Coffees:**
+   * Users can check coffee ratings.
+   * Users can select coffee sizes.
+   * Users can add their favorite coffee to the cart.
+ * **Cart Screen:**
+   * View all items added to the cart with individual prices.
+      * Check the subtotal price of all items.
+      * Check the delivery charges applied to the order.
+      * Can check the total tax on items.
+      * Check the total price for the entire order.
+
 ## Screenshots
 
 <div align="center">

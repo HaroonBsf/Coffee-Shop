@@ -1,11 +1,11 @@
 # Coffee Shop
 
-A Coffee Shop app built with Kotlin, Java, and Firebase, focused on UI design, created as a quick project to test item addition to the cart functionality.
+A Coffee Shop app built with Kotlin, with some Java, and Firebase, focused on UI design, created as a quick project to test item addition to the cart functionality.
 
 ## Note
 This repository is currently under development, with ongoing plans to add more backend features and enhancements.
 
-# Screenshot
+## Screenshots
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/904d77b1-78f1-41b5-ab43-f6c1e6934bd8" width="200" alt="Coffee Shop Image">

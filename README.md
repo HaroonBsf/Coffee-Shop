@@ -87,4 +87,5 @@ $ cd Coffee-Shop/
 #### 6. Final Step
   - Build and run the app on your Android device or emulator.
   
-      
+## License
+[MIT License](LICENSE)

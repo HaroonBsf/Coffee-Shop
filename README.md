@@ -88,7 +88,9 @@ $ cd Coffee-Shop/
   - Build and run the app on your Android device or emulator.
 
 ## Questions?
-💬 Hit me up at [Email](haroonbsf786@gmail.com) or open an issue here!
+
+💬 Hit me up at
+
 <a href="https://www.linkedin.com/in/haroon-majeed-58a708318/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
   
 ## License

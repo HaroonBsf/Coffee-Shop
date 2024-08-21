@@ -4,9 +4,6 @@ A Coffee Shop app built with Kotlin, with some Java, and Firebase, focused on UI
 
 - **APK File:** Download the latest `APK` file of this project and provide feedback 😃. [Download APK]()
 
-## Note
-This repository is currently under development, with ongoing plans to add more backend features and enhancements.
-
 ## Features
 
  * **Premium UI:** Visually appealing, user-friendly, and attractively designed interface for an enhanced user experience.
@@ -87,7 +84,7 @@ $ cd Coffee-Shop/
 #### 6. Final Step
   - Build and run the app on your Android device or emulator.
 
-## Questions?
+## Questions?🤔
 
 💬 Hit me up at
 

@@ -62,9 +62,9 @@ $ cd Coffee-Shop/
 1. Create an Android App in Firebase:
     - In the Firebase console, go to **Project settings**.
     - Under "Your apps," select **Add app** and choose **Android**.
-    - Enter your package name (e.g., `com.yourname.coffeeshopapp`).
+    - Enter your package name (e.g., com.yourname.coffeeshopapp).
 2. Download and Add `google-services.json:`
-    - Follow the on-screen instructions in Firebase to download the `google-services.json` file.
+    - Follow the on-screen instructions in Firebase to download the google-services.json file.
     - Place it in your project’s `/app` directory.
 3. Add SHA-1 Key:
     - Run the following command to get your SHA-1 key:
@@ -86,6 +86,8 @@ $ cd Coffee-Shop/
 
 #### 6. Final Step
   - Build and run the app on your Android device or emulator.
+
+## 
   
 ## License
 

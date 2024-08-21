@@ -31,7 +31,7 @@ This repository is currently under development, with ongoing plans to add more b
   <br>
 </div>
 
-## Setup Instructions
+## Getting Started
 
 #### 1. [Setup Android Studio](https://developer.android.com/studio)
 

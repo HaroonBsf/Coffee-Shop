@@ -51,6 +51,8 @@ $ cd Coffee-Shop/
       - Click on Realtime Database from the left-hand menu.
       - Click on "Create Database."
       - Choose "Start in test mode" for initial setup and click "Enable."
+3. Add Data to Realtime Database:
+    - Download the provided data.json file.
 
 #### 4. Configure Firebase for Android
 
@@ -71,6 +73,12 @@ $ cd Coffee-Shop/
 
 #### 5. Add Dependencies
   - Add Firebase Realtime Database dependencies to your project. For detailed instructions on setting up dependencies, refer to the [Firebase Realtime Database Setup Guide](https://firebase.google.com/docs/database/android/start).
+  - Enable View Binding by adding the following inside the `android` block in your build.gradle file (Module: app):
+    ```sh
+    buildFeatures{
+        viewBinding = true
+    }
+    ```
   - Sync your project with Gradle to ensure all dependencies are correctly added.
 
 #### 6. Final Step

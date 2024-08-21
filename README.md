@@ -2,7 +2,7 @@
 
 A Coffee Shop app built with Kotlin, with some Java, and Firebase, focused on UI design, created as a quick project to test item addition to the cart functionality.
 
-- **APK File:** Download the latest `APK` file of this project and provide feedback 😃. [Download APK]()
+- **APK File:** Download the latest `APK` file of this project and provide feedback 😃. [Download APK](https://github.com/HaroonBsf/Coffee-Shop/releases/download/v1.0.0/coffeeshop-1.0.0.apk)
 
 ## Features
 
@@ -34,7 +34,7 @@ A Coffee Shop app built with Kotlin, with some Java, and Firebase, focused on UI
 
 #### 2. Clone the Repo
 
-```sh
+```
 $ git clone https://github.com/HaroonBsf/Coffee-Shop
 $ cd Coffee-Shop/
 ```
@@ -49,7 +49,7 @@ $ cd Coffee-Shop/
       - Click on "Create Database."
       - Choose "Start in test mode" for initial setup and click "Enable."
 3. Add Data to Realtime Database:
-    - Download the provided [database_firebase.json]() file.
+    - Download the provided [database_firebase.json](https://github.com/HaroonBsf/Coffee-Shop/releases/download/v1.0.0/database_firebase.json) file.
     - Go to the Firebase Realtime Database in the console.
     - Click on the three dots in the upper right corner and select Import JSON.
     - Choose the `database_firebase.json` file and import it to populate the database with initial data.
@@ -65,8 +65,8 @@ $ cd Coffee-Shop/
     - Place it in your project’s `/app` directory.
 3. Add SHA-1 Key:
     - Run the following command to get your SHA-1 key:
-      <br>
-      ```sh
+      
+      ```
       keytool -exportcert -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore
       ```
     - In the Firebase console, under the Android app settings, add your SHA-1 key by clicking "Add Fingerprint."
@@ -74,7 +74,8 @@ $ cd Coffee-Shop/
 #### 5. Add Dependencies
   - Add Firebase Realtime Database dependencies to your project. For detailed instructions on setting up dependencies, refer to the [Firebase Realtime Database Setup Guide](https://firebase.google.com/docs/database/android/start).
   - Enable View Binding by adding the following inside the `android` block in your build.gradle file (Module: app):
-    ```sh
+    
+    ```
     buildFeatures{
         viewBinding = true
     }

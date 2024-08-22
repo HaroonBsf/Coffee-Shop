@@ -37,7 +37,8 @@ class MainActivity : BaseActivity() {
 
     private fun bottomMenu() {
         binding.cartBtn.setOnClickListener {
-            startActivity(Intent(this@MainActivity, CartActivity::class.java))
+            val intent = Intent(this@MainActivity, CartActivity::class.java)
+            startActivity(intent)
         }
     }
 

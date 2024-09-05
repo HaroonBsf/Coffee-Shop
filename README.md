@@ -90,7 +90,7 @@ $ cd Coffee-Shop/
 
 💬 Hit me up at
 
-<a href="https://www.linkedin.com/in/haroon-majeed-58a708318/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+<a href="https://www.linkedin.com/in/haroonbsf/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
 - Or, open an issue on this repository!
 
 ## License

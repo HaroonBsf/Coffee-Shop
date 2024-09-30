@@ -72,8 +72,9 @@ $ cd Coffee-Shop/
     - In the Firebase console, under the Android app settings, add your SHA-1 key by clicking "Add Fingerprint."
 
 #### 5. Add Dependencies
-  - Add Firebase Realtime Database dependencies to your project. For detailed instructions on setting up dependencies, refer to the [Firebase Realtime Database Setup Guide](https://firebase.google.com/docs/database/android/start).
-  - Enable View Binding by adding the following inside the `android` block in your build.gradle file (Module: app):
+  - Check and add the latest versions of the necessary dependencies for Firebase Realtime Database, Lifecycle (extensions, ViewModel, LiveData, runtime), Glide, and Gson to your project.
+  - For detailed instructions on setting up Firebase Realtime Database dependencies, refer to the [Firebase Realtime Database Setup Guide](https://firebase.google.com/docs/database/android/start).
+  - Ensure View Binding is enabled. If not, add the following inside the `android` block in your `build.gradle` file (Module: app):
     
     ```
     buildFeatures{
@@ -89,7 +90,7 @@ $ cd Coffee-Shop/
 
 💬 Hit me up at
 
-<a href="https://www.linkedin.com/in/haroon-majeed-58a708318/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+<a href="https://www.linkedin.com/in/haroonbsf/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
 - Or, open an issue on this repository!
 
 ## License
